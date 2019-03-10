@@ -181,3 +181,45 @@ footer {
     text-align: center;
     font-size: 12px;
 }
+
+@media screen and (max-width: 980px) {
+
+    .top, section, .form_field {
+        width: 900px;
+    }
+
+    nav {
+        padding-left: 150px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .top, section, .form_field {
+        width: 700px;
+    }
+
+    nav {
+        padding-left: 50px;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .top, section, .form_field {
+        width: 600px;
+    }
+
+    nav {
+        padding-left: 20px;
+    }
+    
+}
+
+
+
+
