@@ -184,42 +184,116 @@ footer {
 
 @media screen and (max-width: 980px) {
 
-    .top, section, .form_field {
+    .top, {
         width: 900px;
+    }
+
+    section {
+        width: 600px;
+        margin-left: 30px;
     }
 
     nav {
         padding-left: 150px;
     }
-    
-}
 
+    .form_field, #form_message {
+        width: 540px;
+    }
+  
+}
 
 @media screen and (max-width: 768px) {
 
-    .top, section, .form_field {
-        width: 700px;
+    .top, {
+        width: 708px;
+        margin: 40px;
     }
 
-    nav {
-        padding-left: 50px;
+    section {
+        width: 708px;
     }
-    
+
+   
+    nav {
+        padding-left: 40px;
+    }
+
+    .form_field, #form_message {
+        width: 648px;
+    }
+  
 }
 
 
 @media screen and (max-width: 640px) {
 
-    .top, section, .form_field {
-        width: 600px;
+    .top {
+        width: 100%;
+        float: none;
+        position: static;
+    }
+
+    #my_name {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        width: 590px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 180px;
     }
 
     nav {
-        padding-left: 20px;
+        width: 100%;
+        text-align: center;
     }
-    
+
+    .form_field, #form_message {
+        width: 530px;
+    }
+
+    .image {
+        width: 400px;
+    }
+
+    .image_name {
+        width: 400px;
+        margin-left: -400px;
+    }
+
+
+    #first_image {
+        float: none;
+        padding-left: 65px;
+    }
+
+    #second_image {
+        clear: both;
+        padding-left: 65px;
+    }
+
+    #third_image {
+        clear: both;
+        padding-left: 65px;
+    }
+
+    #fourth_image {
+        clear: both;
+        padding-left: 65px;
+    }
+
+    #fifth_image {
+        padding-left: 65px;
+    }
+
+    #my_picture {
+        float: none;
+        width: 400px;
+        height: 350px;
+        padding-left: 65px;
+    }
+  
 }
-
-
-
-
