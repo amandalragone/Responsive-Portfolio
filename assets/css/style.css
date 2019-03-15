@@ -236,20 +236,19 @@ footer {
         display: block;
     }
     
-    .top {
-        max-width: 640px;
-    }
-    
     #my_name {
         float: none;
         text-align: center;
         display: flex;
         justify-content: center;
+        width: 640px;
     }
     
     nav {
         float: none;
         text-align: center;
+        width: fit-content;
+        width: 640px;
     }
     
     section {
