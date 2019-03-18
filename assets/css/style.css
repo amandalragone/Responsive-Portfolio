@@ -235,6 +235,10 @@ footer {
         right: 0;
         display: block;
     }
+
+    .top {
+        max-width: 640px;
+    }
     
     #my_name {
         float: none;
